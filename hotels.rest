@@ -8,7 +8,7 @@ GET http://localhost:5000/cities HTTP/1.1
 GET http://localhost:5000/types HTTP/1.1
 
 ###
-GET http://localhost:5000/hotels HTTP/1.1
+GET http://localhost:5000/hotels/?page=0&docsPerPage=10 HTTP/1.1
 
 ###
 GET http://localhost:5000/hotel/6311bd07f2fce6ea18172fa3 HTTP/1.1
