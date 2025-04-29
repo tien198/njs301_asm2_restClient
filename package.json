@@ -1,0 +1,25 @@
+{
+  "name": "restclient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tien198/njs301_asm2_restClient.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tien198/njs301_asm2_restClient/issues"
+  },
+  "homepage": "https://github.com/tien198/njs301_asm2_restClient#readme",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "express": "^5.1.0"
+  }
+}
