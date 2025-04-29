@@ -23,7 +23,7 @@ Get http://localhost:5000/admin/get-hotel-count HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAzOTM1ZTRiY2RkZWM0NTIxODdjNzYiLCJ1c2VyTmFtZSI6ImFkbWluIiwiZnVsbE5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTc0NTkzOTQ2OCwiZXhwIjoxNzQ1OTQzMDY4fQ.ey8926_JGlwS_bZ4guA3ZwH9tl_d_vh54pjUcujS9dg
 
 ###
-Get http://localhost:5000/admin/get-hotels HTTP/1.1
+Get http://localhost:5000/admin/get-hotels?page=0&docs-per-page=3 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAzOTM1ZTRiY2RkZWM0NTIxODdjNzYiLCJ1c2VyTmFtZSI6ImFkbWluIiwiZnVsbE5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTc0NTkzOTQ2OCwiZXhwIjoxNzQ1OTQzMDY4fQ.ey8926_JGlwS_bZ4guA3ZwH9tl_d_vh54pjUcujS9dg
 
 ###
@@ -40,7 +40,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAzO
     "type": "Hotel",
     "city": "Vũng tàu",
     "address": "nhà tao",
-    "distance": "",
+    "distance": "10",
     "photos": [],   
     "desc": "nhà tao đẹp lắm",
     "rating": "",
@@ -87,5 +87,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAzO
 
 #____________________ Transactions
 ###
-Get http://localhost:5000/admin/get-transactions HTTP/1.1
+Get http://localhost:5000/admin/get-transactions/?page=1&docs-per-page=1 HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAzOTM1ZTRiY2RkZWM0NTIxODdjNzYiLCJ1c2VyTmFtZSI6ImFkbWluIiwiZnVsbE5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlzQWRtaW4iOnRydWUsImlhdCI6MTc0NTkzOTQ2OCwiZXhwIjoxNzQ1OTQzMDY4fQ.ey8926_JGlwS_bZ4guA3ZwH9tl_d_vh54pjUcujS9dg

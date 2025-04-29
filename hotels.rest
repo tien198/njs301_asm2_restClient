@@ -8,7 +8,7 @@ GET http://localhost:5000/cities HTTP/1.1
 GET http://localhost:5000/types HTTP/1.1
 
 ###
-GET http://localhost:5000/hotels/?page=0&docsPerPage=10 HTTP/1.1
+GET http://localhost:5000/hotels/?page=0&docs-per-page=1 HTTP/1.1
 
 ###
 GET http://localhost:5000/hotel/6311a9c64a642f01423490bf HTTP/1.1
@@ -55,7 +55,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAyM
 }
 
 ###
-POST http://localhost:5000/get-transactions HTTP/1.1
+POST http://localhost:5000/get-transactions?page=0&docs-per-page=2 HTTP/1.1
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAyMzU1NzU3ZDQ3ZmU4ZjhlNzQ3ZDUiLCJ1c2VyTmFtZSI6ImRlc2t0b3BAZ21haWwuY29tIiwiZnVsbE5hbWUiOiIiLCJlbWFpbCI6ImRlc2t0b3BAZ21haWwuY29tIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc0NTkzNjY3MywiZXhwIjoxNzQ1OTQwMjczfQ.rxAyKneEI-7BwUkLYtw1RcGOILdfZ4UylHJgwGNrTaU
 
